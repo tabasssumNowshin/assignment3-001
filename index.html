@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Shop</title>
+    <!-- goggle font adlam -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <!-- goggle-font sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- DaisiUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind cdn -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'pat-button': '#FFDC26',
+              }
+            }
+          }
+        }
+    </script>
+    <!-- font-style -->
+    <style>
+        .adlam-display-font {
+        font-family: "ADLaM Display", serif;
+        }
+        .sora-font {
+        font-family: "Sora", serif;
+  
+        }
+    </style>
+    
+</head>
+<body>
+    <header class="bg-[#FFF9F4]">
+        <nav class="md:container mx-auto">
+          <div class="navbar bg-base-100 bg-[#FFF9F4]">
+            <div class="flex-1">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Find a pet</a></li>
+                  <li><a>Breeds</a></li>
+                  <li><a>Contact us</a></li>
+                </ul>
+              </div>
+              <img class="lg:w-12" src="c1-assets/logo-header.png" alt="">
+              <a class="text-2xl font-normal hidden lg:block lg:mx-2">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+            </div>
+            <div class="navbar-center hidden lg:flex mx-28">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Find a pet</a></li>
+                  <li><a>Breeds</a></li>
+                  <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            
+            <div class="sora-font">
+                <div class="hidden lg:block">
+                    <button class="btn btn-ghost btn-circle">
+                        <div class="indicator">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-6 w-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                          </svg>
+                          
+                        
+                        
+                        </div>
+                    </button>
+                    <button class="btn btn-ghost btn-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                    </button>
+                    <a class="btn border border-[#FFDC26] mx-2 sora-font px-8 ">log In</a>
+                    
+                  </div>
+                  
+                  <a class="btn bg-pat-button sora-font px-8 py-4 hidden lg:block">Register</a>
+            </div>
+          </div>
+        </nav>
+        <div class="border-b-2 border-b-black lg:hidden"></div>
+        
+    </header>
+    <main class="md:container mx-auto">
+      <div class=" relative h-[600px] lg:h-[600px]">
+        <div class="bg-[url(c1-assets/cat-big.png)] bg-contain bg-no-repeat bg-bottom h-full ">
+        <div>
+            <div class="absolute">
+              <div>
+                <h1 class="adlam-display-font mt-16 mb-2 text-5xl font-normal pl-4 lg:pl-0  ">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
+                <p class="my-4 sora-font text-xl pl-4 lg:pl-0">
+                    Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!
+                </p>
+                <a class="btn bg-[#FFDC26] sora-font  font-normal px-7 text-xl ml-4 lg:ml-0">Find a pet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      
+      </section>
+      <!-- catagories -->
+      <section>
+        <h1 class="adlam-display-font text-4xl font-normal pl-4 mt-32">Browse By Categories</h1>
+        <div class="grid grid-cols-2 pl-4 gap-x-4  lg:grid-cols-6 mr-6 ">
+          <div class="card bg-base-100 shadow-sm lg:w-48 mt-12 pt-8 bg-[#F9DF8A]">
+            <div class="avatar justify-center mx-12">
+              <figure class="w-32 p-6 rounded-full  bg-white ">
+                <img
+                  src="c1-assets/dog-cartoon.png"
+                  alt=""
+                  />
+              </figure>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title adlam-display-font">Dog</h2>
+              <p class="sora-font">3 items</p>
+              
+            </div>
+          </div>
+          <!-- fish -->
+          <div class="card bg-base-100 shadow-sm lg:w-48 mt-12 pt-8 bg-[#F9DF8A]">
+            <div class="avatar justify-center mx-12">
+              <figure class="w-32 p-6 rounded-full  bg-white ">
+                <img
+                  src="c1-assets/fish-cartoon.png"
+                  alt=""
+                  />
+              </figure>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title adlam-display-font">Fish</h2>
+              <p class="sora-font">3 items</p>
+              
+            </div>
+          </div>
+          <!-- cat -->
+          <div class="card bg-base-100 shadow-sm lg:w-48 mt-12 pt-8 bg-[#F9DF8A]">
+            <div class="avatar justify-center mx-12">
+              <figure class="w-32 p-6 rounded-full  bg-white ">
+                <img
+                  src="c1-assets/cat-cartoon.png"
+                  alt=""
+                  />
+              </figure>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title adlam-display-font">Cat</h2>
+              <p class="sora-font">3 items</p>
+              
+            </div>
+          </div>
+          <!-- bird -->
+          <div class="card bg-base-100 shadow-sm lg:w-48 mt-12 pt-8 bg-[#F9DF8A]">
+            <div class="avatar justify-center mx-12">
+              <figure class="w-32 p-6 rounded-full  bg-white ">
+                <img
+                  src="c1-assets/bird-cartoon.png"
+                  alt=""
+                  />
+              </figure>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title adlam-display-font">Birds</h2>
+              <p class="sora-font">3 items</p>
+              
+            </div>
+            <!-- small pet -->
+          </div>
+          <div class="card bg-base-100 shadow-sm lg:w-48 mt-12 pt-8 bg-[#F9DF8A]">
+            <div class="avatar justify-center mx-12">
+              <figure class="w-32 p-6 rounded-full  bg-white ">
+                <img
+                  src="c1-assets/mouse-cartoon.png"
+                  alt=""
+                 />
+              </figure>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title adlam-display-font">Small pet</h2>
+              <p class="sora-font">3 items</p>
+              
+            </div>
+          </div>
+          <!-- rabbit -->
+          <div class="card bg-base-100 shadow-sm lg:w-48 mt-12 pt-8 bg-[#F9DF8A]">
+            <div class="avatar justify-center mx-12">
+              <figure class="w-32 p-6 rounded-full  bg-white ">
+                <img
+                  src="c1-assets/rabbit-cartoon.png"
+                  alt=""
+                  /> 
+              </figure>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title adlam-display-font">Rabit</h2>
+              <p class="sora-font">2 items</p>
+              
+            </div>
+          </div>
+
+         
+
+            
+        </div>
+    </section>
+
+
+    <!-- everyday low price -->
+     <section>
+      <h1 class=" adlam-display-font text-4xl font-normal mt-32">Everyday low Price</h1>
+      <div class="gap-12 py-6 lg:flex">
+        <!-- Pet Grooming Mitt Card -->
+        <div class="flex pl-4 gap-28 mb-10 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-lg shadow-lg w-full lg:w-[900px] h-[400px]  ">
+          <div class="lg:pl-20 py-32">
+            <p class="sora-font text-xl">Under Price</p>
+            <h2 class="adlam-display-font text-3xl font-normal">Pet Grooming Mitt</h2>
+            <p class="adlam-display-font lg:text-xl font-normal text-[#FFFFFF]">(Easy Hair Removal)</p>
+            <p class="adlam-display-font lg:text-6xl">$7.99</p>
+          </div>
+          <img
+            src="c1-assets/cute-dog-mid.png" 
+            alt="Corgi Dog" 
+            class="h-[268px] w-[214px]  lg:w-[382px] h-[400px] object-cover rounded-full mb-4"
+          />
+          
+        </div>
+      
+        <!-- T-Shirt for Dogs Card -->
+        <div class="flex p-4 bg-gradient-to-r from-[#FFF9F4] to-orange-200 rounded-lg shadow-lg lg:w-[500px] h-[400px]">
+          <div class="lg:pl-12 pt-16">
+            <h2 class="adlam-display-font text-2xl font-normal">
+              T-Shirt for Dogs</h2>
+            <p class="adlam-display-font text-6xl text-[#FFDC26]">$7.99</p>
+          </div>
+          <img
+            src="c1-assets/cute-pet-mid.png" 
+            alt="" 
+            class="w-64 h-72 rounded-full mt-20 lg:mt-24"
+          />
+          
+        </div>
+      </div>
+      
+      
+    </section>
+      
+
+    </main> 
+   
+    
+</body>
+</html>
