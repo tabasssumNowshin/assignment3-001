@@ -126,27 +126,28 @@
         <div class="border-b-2 border-b-black lg:hidden"></div>
         
     </header>
-    <main class="md:container mx-auto">
-      <div class=" relative h-[600px] lg:h-[600px]">
-        <div class="bg-[url(c1-assets/cat-big.png)] bg-contain bg-no-repeat bg-bottom h-full ">
-        <div>
-            <div class="absolute">
-              <div>
-                <h1 class="adlam-display-font mt-16 mb-2 text-5xl font-normal pl-4 lg:pl-0  ">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
-                <p class="my-4 sora-font text-xl pl-4 lg:pl-0">
-                    Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!
-                </p>
-                <a class="btn bg-[#FFDC26] sora-font  font-normal px-7 text-xl ml-4 lg:ml-0">Find a pet</a>
+    <main>
+      <section class="md:container mx-auto">
+        <div class=" relative h-[600px] lg:h-[600px]">
+          <div class="bg-[url(c1-assets/cat-big.png)] bg-contain bg-no-repeat bg-bottom h-full ">
+          <div>
+              <div class="absolute">
+                <div>
+                  <h1 class="adlam-display-font mt-16 mb-2 text-5xl font-normal pl-4 lg:pl-0  ">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
+                  <p class="my-4 sora-font text-xl pl-4 lg:pl-0">
+                      Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!
+                  </p>
+                  <a class="btn bg-[#FFDC26] sora-font  font-normal px-7 text-xl ml-4 lg:ml-0">Find a pet</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
   
       
       </section>
       <!-- catagories -->
-      <section>
+      <section class="md:container mx-auto">
         <h1 class="adlam-display-font text-4xl font-normal pl-4 mt-32">Browse By Categories</h1>
         <div class="grid grid-cols-2 pl-4 gap-x-4  lg:grid-cols-6 mr-6 ">
           <div class="card bg-base-100 shadow-sm lg:w-48 mt-12 pt-8 bg-[#F9DF8A]">
@@ -248,40 +249,246 @@
         </div>
       </section>
       <!-- trending pet product -->
-      <section class="bg-[#FFF9F4]">
-        <h1 class=" adlam-display-font text-4xl font-normal mt-32">Trending Pet Products</h1>
-        <div>
-          <div class="card space-x-5 col-span-2 row-span-3 pt-16 bg-[#F9DF8A]">
-            <div class="hero">
-              <div class="hero-content lg:flex-row-reverse">
-                <img
-                  src="c1-assets/cute-pet-mid.png"
-                  class="lg:w-[244px] h-[321px]" />
-                <div>
-                  <h1 class="adlam-display-font text-4xl font-normal">T-Shirt For Dogs</h1>
-                  <p class="py-6 sora-font">Discover a world of treats, toys, and essentials handcrafted for
-                  </p>
-                  <button class="btn px-8 text-base font-normal sora-font">Shop Now</button>
+      <section class="lg:bg-[#FFF9F4] mt-32  px-4">
+        <div class="md:container mx-auto">
+          <h1 class=" adlam-display-font text-4xl font-normal pt-36 mb-12">Trending Pet Products</h1>
+          <div class="lg:flex gap-6">
+            <div class="card w-[430px] h-[520px]  bg-[#F9DF8A] mb-4">
+              <div class="hero">
+                <div class="">
+                  <div class="mx-10 pt-6">
+                    <h1 class="adlam-display-font text-4xl font-normal mt-12">T-Shirt For Dogs</h1>
+                    <p class="py-6 sora-font">Discover a world of treats, toys, and<br>essentials handcrafted for
+                    </p>
+                    <button class="btn px-8 text-base font-normal sora-font">Shop Now</button>
+                  </div>
+                  
+                  <div class="">
+                    <img
+                    src="c1-assets/cute-pet-mid.png"
+                    class="w-[220px] h-[250px] ml-52" />
+                    
+                  </div>
+                  
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card card-side bg-base-100 shadow-xl">
-            <figure>
-              <img
-                src="c1-assets/dog-cartoon.png"
-                alt="Movie" />
-            </figure>
-            <div class="card-body">
-              <div class="flex">
-                <div class="rating">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <div class="grid grid-cols-2 gap-4  lg:grid-cols-3 lg:gap-6 mb-32 ">
+              <div class="card card-side border bg-[#FFFFFF] px-10 space-x-5 ">
+                <figure>
+                  <img class="hidden lg:block bg-[#FFF9F4] p-4 "
+                    src="c1-assets/dog-cartoon.png"
+                    alt="Movie" />
+                </figure>
+                <figure>
+                  <img class="block bg-[#FFF9F4] w-10 p-2 lg:hidden"
+                    src="c1-assets/pet-couch.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="card-title">Pet Bed</h2>
+                  <p class="sora-font">$39.99</p>
+                  
                 </div>
-                <p>4.5</p>
               </div>
-              <h2 class="card-title">Pet Bed</h2>
-              <p class="sora-font">$39.99</p>
-              
+            
+              <div class="card card-side border bg-[#FFFFFF] px-10 space-x-5">
+                <figure>
+                  <img class="hidden lg:block bg-[#FFF9F4] p-4 "
+                    src="c1-assets/dog-cartoon.png"
+                    alt="Movie" />
+                </figure>
+                <figure>
+                  <img class="block bg-[#FFF9F4] w-10 p-2 lg:hidden"
+                    src="c1-assets/pet-couch.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="card-title">Pet Bed</h2>
+                  <p class="sora-font">$39.99</p>
+                  
+                </div>
+              </div>
+            
+              <div class="card card-side border bg-[#FFFFFF] px-10 space-x-5 ">
+                <figure>
+                  <img class="hidden lg:block bg-[#FFF9F4] p-4 "
+                    src="c1-assets/dog-cartoon.png"
+                    alt="Movie" />
+                </figure>
+                <figure>
+                  <img class="block bg-[#FFF9F4] w-10 p-2 lg:hidden"
+                    src="c1-assets/pet-couch.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="card-title">Pet Bed</h2>
+                  <p class="sora-font">$39.99</p>
+                  
+                </div>
+              </div>
+            
+              <div class="card card-side border bg-[#FFFFFF] px-10 space-x-5 ">
+                <figure>
+                  <img class="hidden lg:block bg-[#FFF9F4] p-4 "
+                    src="c1-assets/dog-cartoon.png"
+                    alt="Movie" />
+                </figure>
+                <figure>
+                  <img class="block bg-[#FFF9F4] w-10 p-2 lg:hidden"
+                    src="c1-assets/pet-couch.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="card-title">Pet Bed</h2>
+                  <p class="sora-font">$39.99</p>
+                  
+                </div>
+              </div>
+            
+              <div class="card card-side border bg-[#FFFFFF] px-10 space-x-5 ">
+                <figure>
+                  <img class="hidden lg:block bg-[#FFF9F4] p-4 "
+                    src="c1-assets/dog-cartoon.png"
+                    alt="Movie" />
+                </figure>
+                <figure>
+                  <img class="block bg-[#FFF9F4] w-10 p-2 lg:hidden"
+                    src="c1-assets/pet-couch.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="card-title">Pet Bed</h2>
+                  <p class="sora-font">$39.99</p>
+                  
+                </div>
+              </div>
+            
+              <div class="card card-side border bg-[#FFFFFF] px-10 space-x-5 ">
+                <figure>
+                  <img class="hidden lg:block bg-[#FFF9F4] p-4 "
+                    src="c1-assets/dog-cartoon.png"
+                    alt="Movie" />
+                </figure>
+                <figure>
+                  <img class="block bg-[#FFF9F4] w-10 p-2 lg:hidden"
+                    src="c1-assets/pet-couch.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="card-title">Pet Bed</h2>
+                  <p class="sora-font">$39.99</p>
+                  
+                </div>
+              </div>
+            
+              <div class="card card-side border bg-[#FFFFFF] px-10 space-x-5 ">
+                <figure>
+                  <img class="hidden lg:block bg-[#FFF9F4] p-4 "
+                    src="c1-assets/dog-cartoon.png"
+                    alt="Movie" />
+                </figure>
+                <figure>
+                  <img class="block bg-[#FFF9F4] w-10 p-2 lg:hidden"
+                    src="c1-assets/pet-couch.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="card-title">Pet Bed</h2>
+                  <p class="sora-font">$39.99</p>
+                  
+                </div>
+              </div>
+            
+              <div class="card card-side border bg-[#FFFFFF] px-10 space-x-5 ">
+                <figure>
+                  <img class="hidden lg:block bg-[#FFF9F4] p-4 "
+                    src="c1-assets/dog-cartoon.png"
+                    alt="Movie" />
+                </figure>
+                <figure>
+                  <img class="block bg-[#FFF9F4] w-10 p-2 lg:hidden"
+                    src="c1-assets/pet-couch.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="card-title">Pet Bed</h2>
+                  <p class="sora-font">$39.99</p>
+                  
+                </div>
+              </div>
+            
+              <div class="card card-side border bg-[#FFFFFF] px-10 space-x-5 hidden lg:flex">
+                <figure>
+                  <img class="hidden lg:block bg-[#FFF9F4] p-4 "
+                    src="c1-assets/dog-cartoon.png"
+                    alt="Movie" />
+                </figure>
+                <figure>
+                  <img class="block bg-[#FFF9F4] w-10 p-2 lg:hidden"
+                    src="c1-assets/pet-couch.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <div class="flex">
+                    <div class="rating">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="card-title">Pet Bed</h2>
+                  <p class="sora-font">$39.99</p>
+                  
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -289,7 +496,7 @@
 
 
     <!-- everyday low price -->
-     <section>
+     <section class="md:container mx-auto">
       <h1 class=" adlam-display-font text-4xl font-normal mt-32">Everyday low Price</h1>
       <div class="gap-12 py-6 lg:flex">
         <!-- Pet Grooming Mitt Card -->
@@ -303,7 +510,7 @@
           <img
             src="c1-assets/cute-dog-mid.png" 
             alt="Corgi Dog" 
-            class="h-[268px] w-[214px]  lg:w-[382px] h-[400px] object-cover rounded-full mb-4"
+            class=" w-[200px] h-[400px]   lg:w-[382px] lg:h-[400px] object-cover rounded-full lg:mb-4"
           />
           
         </div>
@@ -327,7 +534,7 @@
       
     </section>
     <!-- last part -->
-    <section">
+    <section class="md:container mx-auto">
       <div class="bg-[#FFF9F4] rounded-2xl relative top-56 -mt-52 mx-5">
         <div class="pt-10 lg:flex">
           <div class="pl-10">
